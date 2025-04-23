@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #f0f0f0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .animate {
+    animation: bounce 0.5s ease;
+  }
+  
